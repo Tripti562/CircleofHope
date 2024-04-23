@@ -1,0 +1,82 @@
+.Rochester{
+    font-family: "Rochester", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.roboto-serif{
+    font-family: "Roboto Serif", serif;
+  }
+.top{
+    font-size: .7rem;
+    background-color: #181A2A;
+    color: #B0ACBA;
+}
+.orange{
+    background-color: #FE6A12;
+}
+.secondtop{
+    margin-inline: 3rem;
+}
+
+select{
+    cursor: pointer;
+}
+/* HOME underline */
+.orange_underline {
+    text-decoration-color: #FE6A12;
+}
+.orangecolor{
+    color: #FE6A12;
+}
+/* hero-image */
+.hero{
+    height: 90vh;
+    background-image: url("images/hero-img.png");
+    background-repeat: no-repeat;
+    /* background-origin: content-box; */
+    background-position: top center;
+    background-size: cover;
+}
+.start{
+    background-color: #FFECE1;
+}
+.startsecnd{
+    background-color: #E9F6FE;
+}
+.startthird{
+    background-color: #DFF9DF;
+}
+.herosection{
+    position: relative;
+}
+.box{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 90%;
+    
+    left: 35%;
+    transform: translateX(-30%);
+
+}
+.pinkis{
+    background-color: #F8F4F1;
+}
+.hei{
+    height: 30vh;
+}
+.imgsection{
+    background-color: #2B2735;
+}
+.first{
+    cursor: pointer;
+}
+/* .volunterimg{
+    height: 100px;
+    width: 100px;
+    background-image: url("images/volunter.png");
+    background-repeat: no-repeat;
+    
+    background-position: top center;
+    background-size: cover;
+} */
