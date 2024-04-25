@@ -71,12 +71,25 @@ select{
 .first{
     cursor: pointer;
 }
-/* .volunterimg{
-    height: 100px;
-    width: 100px;
-    background-image: url("images/volunter.png");
-    background-repeat: no-repeat;
-    
-    background-position: top center;
-    background-size: cover;
-} */
+.volunterimg{
+    position: relative;
+}
+.detailtovolunter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* footer */
+.footer1{
+    background-color: #2B2735;
+}
+.footer1 ul li{
+    list-style: disc;
+}
+.footer2{
+    background-color: #181A2A;
+}
+.grayis{
+    color: #808080;
+}
