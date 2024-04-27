@@ -50,11 +50,10 @@ select{
     position: relative;
 }
 .box{
-    position: absolute;
-    width: auto;
-    height: auto;
+    position:absolute;
+    /* width: auto; */
+    /* height: auto; */
     top: 90%;
-    
     left: 35%;
     transform: translateX(-30%);
 
@@ -63,7 +62,7 @@ select{
     background-color: #F8F4F1;
 }
 .hei{
-    height: 30vh;
+    height: 280px;
 }
 .imgsection{
     background-color: #2B2735;
@@ -92,4 +91,36 @@ select{
 }
 .grayis{
     color: #808080;
+}
+.menu{
+    display: none;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+@media (max-width: 1408px) {
+    .herosection{
+        position: static;
+    }
+    .box{
+        position:static;
+        /* width: auto; */
+        /* height: auto; */
+        top: 0%;
+        left: 0%;
+        transform: translateX(0%);
+    
+    }
+    .hei{
+        height: 4rem;
+    }
+}
+@media (max-width: 677px) {
+    nav, .donate{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
 }
