@@ -95,8 +95,40 @@ select{
 .menu{
     display: none;
 }
+.menu-links{
+    display: none;
+}
 ::-webkit-scrollbar{
     display: none;
+}
+.ham-menu{
+    position: relative;
+    display: inline-block;
+}
+.menu-links{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
+}
+.menu-links li{
+    list-style: none;
+}
+.menu-links a{
+    display: block;
+    padding: .7rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3 ease-in-out;
+}
+.menu-links.show{
+    max-height: 300px;
 }
 
 @media (max-width: 1408px) {
@@ -120,7 +152,13 @@ select{
     nav, .donate{
         display: none;
     }
+    .donate{
+        display: none;
+    }
     .menu{
+        display: block;
+    }
+    .menu-links{
         display: block;
     }
 }
