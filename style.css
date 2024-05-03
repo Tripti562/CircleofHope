@@ -130,6 +130,9 @@ select{
 .menu-links.show{
     max-height: 300px;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 @media (max-width: 1408px) {
     .herosection{

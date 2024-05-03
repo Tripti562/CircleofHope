@@ -54,21 +54,23 @@
                <a href="#">
                     <li class=" orange_underline pe-8 underline underline-offset-8">Home</li>
                </a>
-               <a href="#">
-                    <li class="pe-8 text-slate-400">
-                        <a href="#"></a><select name="" id="">
-                             <option value="Donation">Donation</option>
-                     </select>
-                </li>
-                </a>
-                <a href="#">
+               <a href="#stories">
                     <li class="pe-8 text-slate-400">
                         <select name="" id="">
-                            <option value="news">News</option>
+                            <option value="Donation">Stories</option>
+                        </select>
+                             
+                     
+                </li>
+                </a>
+                <a href="#events">
+                    <li class="pe-8 text-slate-400">
+                        <select name="" id="">
+                            <option value="news">Events</option>
                       </select>
                     </li>
                 </a>
-                <a href="#">
+                <a href="#blog">
                     <li class="pe-8 text-slate-400">Blog</li>
                </a>
             </ul>
@@ -85,13 +87,13 @@
                 <a href="#" onclick="toggleMenu()">
                     <li class=" pe-8 ">Home</li>
                </a>
-               <a href="#" onclick="toggleMenu()">
-                <li class="pe-8 ">Donation</li>
+               <a href="#stories" onclick="toggleMenu()">
+                <li class="pe-8 ">Stories</li>
            </a>
-                <a href="#" onclick="toggleMenu()">
-                    <li class="pe-8 ">News</li>
+                <a href="#events" onclick="toggleMenu()">
+                    <li class="pe-8 ">Events</li>
                </a>
-                <a href="#" onclick="toggleMenu()">
+                <a href="#blog" onclick="toggleMenu()">
                     <li class="pe-8 ">Blog</li>
                </a>
                <button class="donates m-2 orange rounded-3xl text-white font-medium flex justify-center items-center pt-2 pb-2 px-4 text-base">
@@ -104,7 +106,7 @@
            
   </header>
   <main>
-    <section class="herosection">
+    <section class="herosection" id="hero">
         <div class="hero flex flex-col justify-center items-center">
             <div class="hero-img ">
                 <p class="Rochester underline text-white text-center  orange_underline decoration-dashed underline-offset-8 text-2xl p-4">Helping Them Today</p>
@@ -201,7 +203,7 @@
             </div>
         </div>
     </section>
-    <section class="stories pt-6 pb-6 secondtop">
+    <section class="stories pt-6 pb-6 secondtop" id="stories">
         <p class="roboto-serif font-bold text-5xl text-center mt-5">Successful <span class="orangecolor">Stories</span></p>
         <p class="text-slate-400 text-center mb-5">Committed To Providing The Best</p>
         <div class="display pt-4 flex flex-wrap justify-around">
@@ -249,7 +251,7 @@
             </div>
         </div>
     </section>
-    <section class="pinkis pt-4 pb-4">
+    <section class="pinkis pt-4 pb-4" id="aid">
         <p class="roboto-serif font-bold text-5xl text-center mt-5">Welcome to <span class="orangecolor">Aid</span> Network</p>
         <p class="text-slate-400 text-center pb-5">Committed To Providing The Best</p>
         <p class="text-center w-1/2 mx-auto">Join the Circle of Hope and become a beacon of change in the lives of those less fortunate. Your time, compassion, and support can create a ripple effect, turning despair into hope. Together, let's build a network of kindness that transforms communities and uplifts the spirit of humanity.</p>
@@ -265,7 +267,7 @@
             
         </div>
         <div class="flex flex-wrap justify-evenly secondtop">
-            <div>
+            <div id="events">
                     <p class="orangecolor roboto-serif text-3xl font-bold border-b-2 border-dotted mt-8 ">Upcoming Events</p>
                     <p class="text-slate-400">Charity Events</p>
                 
@@ -303,8 +305,8 @@
   </main>
   <footer>
     <section class="footer1 p-7 flex flex-wrap justify-evenly">
-        <div class="recent">
-            <p class="text-white font-medium roboto-serif text-2xl mb-4">Recent Post</p>
+        <div class="recent" id="blog">
+            <p class="text-white font-medium roboto-serif text-2xl mb-4">Recent Blog</p>
             
                 <div class="flex flex-wrap mb-4">
                     <img class="me-4" src="images/vehicle.png" alt="vehicle">
@@ -327,19 +329,19 @@
         <div class="recent">
             <p class="text-white font-medium roboto-serif text-2xl mb-4">Quick Link</p>
             <ul class="text-white ">
-                <a href="#">
+                <a href="#hero">
                     <li class="mb-3 hover:text-orange-500">Home</li>
                 </a>
-                <a href="#">
+                <a href="#aid">
                     <li class="mb-3 hover:text-orange-500">Donations</li>
                 </a>
-                <a href="#">
-                    <li class="mb-3 hover:text-orange-500">News</li>
+                <a href="#stories">
+                    <li class="mb-3 hover:text-orange-500">Stories</li>
                 </a>
-                <a href="#">
+                <a href="#events">
                     <li class="mb-3 hover:text-orange-500">Events</li>
                 </a>
-                <a href="#">
+                <a href="#blog">
                     <li class="mb-3 hover:text-orange-500">Blog</li>
                 </a>
             </ul>
